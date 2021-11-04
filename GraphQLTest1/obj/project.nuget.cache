@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "dgSpecHash": "fAynH5SfqRLS9n5H1U34+uzAnTRW25KVdytuWwfE0siR1fY1NO5bUpoXci7YLpb/1HUPUl6VvQNR0pkk5hyFqg==",
+  "success": true,
+  "projectFilePath": "/Users/rcosta/repos/cs/graphql_test1/GraphQLTest1/GraphQLTest1/GraphQLTest1.csproj",
+  "expectedPackageFiles": [
+    "/Users/rcosta/.nuget/packages/fparsec/1.0.2/fparsec.1.0.2.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/fparsec-pipes/0.3.1/fparsec-pipes.0.3.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/fsharp.core/4.0.0.1/fsharp.core.4.0.0.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/graphql/4.6.1/graphql.4.6.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/graphql-parser/7.2.0/graphql-parser.7.2.0.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/graphql.client/4.0.1/graphql.client.4.0.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/graphql.client.abstractions/4.0.1/graphql.client.abstractions.4.0.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/graphql.client.abstractions.websocket/4.0.1/graphql.client.abstractions.websocket.4.0.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/graphql.client.serializer.newtonsoft/4.0.1/graphql.client.serializer.newtonsoft.4.0.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/graphql.net/0.3.5/graphql.net.0.3.5.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/graphql.primitives/4.0.1/graphql.primitives.4.0.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.2/microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/microsoft.extensions.http/5.0.0/microsoft.extensions.http.5.0.0.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/strawberryshake.codegeneration.csharp.analyzers/12.0.1/strawberryshake.codegeneration.csharp.analyzers.12.0.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/strawberryshake.core/12.1.0-preview.5/strawberryshake.core.12.1.0-preview.5.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/strawberryshake.resources/12.1.0-preview.5/strawberryshake.resources.12.1.0-preview.5.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/strawberryshake.tools.configuration/12.0.1/strawberryshake.tools.configuration.12.0.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/strawberryshake.transport.http/12.0.1/strawberryshake.transport.http.12.0.1.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/system.reactive/4.3.2/system.reactive.4.3.2.nupkg.sha512",
+    "/Users/rcosta/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FParsec 1.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FParsec",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FParsec-Pipes 0.3.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FParsec-Pipes",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FSharp.Core 4.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FSharp.Core",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'GraphQL.Net 0.3.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "GraphQL.Net",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

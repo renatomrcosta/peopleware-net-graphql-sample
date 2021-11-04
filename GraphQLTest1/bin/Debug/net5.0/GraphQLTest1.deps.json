@@ -1,0 +1,514 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GraphQLTest1/1.0.0": {
+        "dependencies": {
+          "GraphQL": "4.6.1",
+          "GraphQL.Client": "4.0.1",
+          "GraphQL.Client.Serializer.Newtonsoft": "4.0.1",
+          "GraphQL.Net": "0.3.5",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "Microsoft.Extensions.Http": "5.0.0",
+          "StrawberryShake.CodeGeneration.CSharp.Analyzers": "12.0.1",
+          "StrawberryShake.Core": "12.1.0-preview.5",
+          "StrawberryShake.Transport.Http": "12.0.1",
+          "System.Reactive.Reference": "4.3.0.0"
+        },
+        "runtime": {
+          "GraphQLTest1.dll": {}
+        }
+      },
+      "FParsec/1.0.2": {
+        "runtime": {
+          "lib/net40-client/FParsec.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2.0"
+          },
+          "lib/net40-client/FParsecCS.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "FParsec-Pipes/0.3.1": {
+        "dependencies": {
+          "FParsec": "1.0.2"
+        },
+        "runtime": {
+          "lib/net45/FParsec-Pipes.dll": {
+            "assemblyVersion": "0.3.1.0",
+            "fileVersion": "0.3.1.0"
+          }
+        }
+      },
+      "FSharp.Core/4.0.0.1": {
+        "runtime": {
+          "lib/net40/FSharp.Core.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.40.23020.0"
+          }
+        }
+      },
+      "GraphQL/4.6.1": {
+        "dependencies": {
+          "GraphQL-Parser": "7.2.0",
+          "Microsoft.CSharp": "4.7.0",
+          "System.ComponentModel.Annotations": "4.7.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/GraphQL.dll": {
+            "assemblyVersion": "4.6.1.0",
+            "fileVersion": "4.6.1.0"
+          }
+        }
+      },
+      "GraphQL-Parser/7.2.0": {
+        "runtime": {
+          "lib/netstandard2.1/GraphQL-Parser.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.0"
+          }
+        }
+      },
+      "GraphQL.Client/4.0.1": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "4.0.1",
+          "GraphQL.Client.Abstractions.Websocket": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "GraphQL.Client.Abstractions/4.0.1": {
+        "dependencies": {
+          "GraphQL.Primitives": "4.0.1",
+          "System.Reactive": "4.3.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "GraphQL.Client.Abstractions.Websocket/4.0.1": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.Websocket.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "GraphQL.Client.Serializer.Newtonsoft/4.0.1": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions.Websocket": "4.0.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Serializer.Newtonsoft.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "GraphQL.Net/0.3.5": {
+        "dependencies": {
+          "FParsec": "1.0.2",
+          "FParsec-Pipes": "0.3.1",
+          "FSharp.Core": "4.0.0.1"
+        },
+        "runtime": {
+          "lib/net40/GraphQL.Net.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net40/GraphQL.Parser.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GraphQL.Primitives/4.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Primitives.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.DependencyInjection/5.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.821.31504"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "StrawberryShake.CodeGeneration.CSharp.Analyzers/12.0.1": {
+        "dependencies": {
+          "StrawberryShake.Tools.Configuration": "12.0.1"
+        }
+      },
+      "StrawberryShake.Core/12.1.0-preview.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "StrawberryShake.Resources": "12.1.0-preview.5",
+          "System.Collections.Immutable": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/StrawberryShake.Core.dll": {
+            "assemblyVersion": "12.1.0.0",
+            "fileVersion": "12.1.0.0"
+          }
+        }
+      },
+      "StrawberryShake.Resources/12.1.0-preview.5": {
+        "runtime": {
+          "lib/net5.0/StrawberryShake.Resources.dll": {
+            "assemblyVersion": "12.1.0.0",
+            "fileVersion": "12.1.0.0"
+          }
+        }
+      },
+      "StrawberryShake.Tools.Configuration/12.0.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/StrawberryShake.Tools.Configuration.dll": {
+            "assemblyVersion": "12.0.1.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "StrawberryShake.Transport.Http/12.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Http": "5.0.0",
+          "StrawberryShake.Core": "12.1.0-preview.5"
+        },
+        "runtime": {
+          "lib/net5.0/StrawberryShake.Transport.Http.dll": {
+            "assemblyVersion": "12.0.1.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "System.Collections.Immutable/5.0.0": {},
+      "System.ComponentModel.Annotations/4.7.0": {},
+      "System.Reactive/4.3.2": {},
+      "System.Runtime.CompilerServices.Unsafe/4.7.1": {},
+      "System.Reactive.Reference/4.3.0.0": {
+        "runtime": {
+          "System.Reactive.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.2.55399"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GraphQLTest1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FParsec/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QT3Y3+UsfUhoXdbrL+n1IdRbhmTWMpAucMKi3GTMMmwzjp0fgOXY/GGzVM2j37mw+N0G9HS9zEnSn6wF6KzRMQ==",
+      "path": "fparsec/1.0.2",
+      "hashPath": "fparsec.1.0.2.nupkg.sha512"
+    },
+    "FParsec-Pipes/0.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N6nQpgU6HKwxK05WJnCpKM2GA4hg4AYGSYK6sOTPOWiJUqNvY/0n0A5TKLL15Y962t8bgf0L5r5AZZ/E34C/ng==",
+      "path": "fparsec-pipes/0.3.1",
+      "hashPath": "fparsec-pipes.0.3.1.nupkg.sha512"
+    },
+    "FSharp.Core/4.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lNtlbbJ5hP8LEd7nKtTUiGEpLmHLWiU39x+0jq4rmRWG7Mgj6vYm+gmTOhtwpiPFX8j8zUsfLyA8AC7dZY75LQ==",
+      "path": "fsharp.core/4.0.0.1",
+      "hashPath": "fsharp.core.4.0.0.1.nupkg.sha512"
+    },
+    "GraphQL/4.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/mky7HM3ytJMdJ3Yalp9f7ovgPiVQslqjyiLTjto/G5wFRcDM+YQGW/JWWX3gsLIu69yi6prn5OlO+jita+s9g==",
+      "path": "graphql/4.6.1",
+      "hashPath": "graphql.4.6.1.nupkg.sha512"
+    },
+    "GraphQL-Parser/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38qDxnwdUHK5zkWL28UhkmytkSSwDvX+dBhOVN1USgpZg7E2PUVNixbyG8JKEuRw/vqnhBWhk4JwkqA6jvHaFA==",
+      "path": "graphql-parser/7.2.0",
+      "hashPath": "graphql-parser.7.2.0.nupkg.sha512"
+    },
+    "GraphQL.Client/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2heiFzRU6J+zaHyAqIPO3/1xDSqTg10/bY9HcO1Ku6SNpPKA7HBQ0+hs0SCkIGYWD4t6BEqJnmqvny1vsckO0w==",
+      "path": "graphql.client/4.0.1",
+      "hashPath": "graphql.client.4.0.1.nupkg.sha512"
+    },
+    "GraphQL.Client.Abstractions/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GBE3fJts/JY2ENsicPUqCX0bPlUrFV8FnyvQCsyXu/4mnH9KbOaZE2DYcfmxoKza+AGxqpSZIchEqqmWD9r4hA==",
+      "path": "graphql.client.abstractions/4.0.1",
+      "hashPath": "graphql.client.abstractions.4.0.1.nupkg.sha512"
+    },
+    "GraphQL.Client.Abstractions.Websocket/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-53PCTpyGPMPzBtdgQcJD8+u6a7JzH2vq7HP6flgDAMLdQ16x/IPUvg222hDV9AhFSVIrSPc7rGth7i0e3eXyGw==",
+      "path": "graphql.client.abstractions.websocket/4.0.1",
+      "hashPath": "graphql.client.abstractions.websocket.4.0.1.nupkg.sha512"
+    },
+    "GraphQL.Client.Serializer.Newtonsoft/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EpTC6Y8sdTmyqkRdocnHX3X2/qdrA+H00CTjD1G2DRR4iQ7G44Hv3g571YRAh+q5b9+3jxQRliLinvJGzOAhAA==",
+      "path": "graphql.client.serializer.newtonsoft/4.0.1",
+      "hashPath": "graphql.client.serializer.newtonsoft.4.0.1.nupkg.sha512"
+    },
+    "GraphQL.Net/0.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Yfg8fse1hDQd9MlUdUiLioGhvOyhLpvtEXKhWNtvjyKoJulOxPX0JEWqEPVYsfPh/opX3QuhDLyyravk58zGA==",
+      "path": "graphql.net/0.3.5",
+      "hashPath": "graphql.net.0.3.5.nupkg.sha512"
+    },
+    "GraphQL.Primitives/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xPwX3aKMJyDEtk2T05JbraH/22xX1pk5cYm/wlJwCbwvWHi+Po74qPq9VQM9FV7p0LZSXK7iZdESHiGrQ9j5Sg==",
+      "path": "graphql.primitives/4.0.1",
+      "hashPath": "graphql.primitives.4.0.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xzFW00AZEvOXM1OX+0+AYH5op/Hf3u//e6wszBd/rK72sypD+jx5CtsHxM4BVuFBEs8SajfO4QzSJtrQaHDr4A==",
+      "path": "microsoft.extensions.dependencyinjection/5.0.2",
+      "hashPath": "microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kT1ijDKZuSUhBtYoC1sXrmVKP7mA08h9Xrsr4VrS/QOtiKCEtUTTd7dd3XI9dwAb46tZSak13q/zdIcr4jqbyg==",
+      "path": "microsoft.extensions.http/5.0.0",
+      "hashPath": "microsoft.extensions.http.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MgOwK6tPzB6YNH21wssJcw/2MKwee8b2gI7SllYfn6rvTpIrVvVS5HAjSU2vqSku1fwqRvWP0MdIi14qjd93Aw==",
+      "path": "microsoft.extensions.logging/5.0.0",
+      "hashPath": "microsoft.extensions.logging.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CBvR92TCJ5uBIdd9/HzDSrxYak+0W/3+yxrNg8Qm6Bmrkh5L+nu6m3WeazQehcZ5q1/6dDA7J5YdQjim0165zg==",
+      "path": "microsoft.extensions.options/5.0.0",
+      "hashPath": "microsoft.extensions.options.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "StrawberryShake.CodeGeneration.CSharp.Analyzers/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K/fr9nBcCLogLfyCgTbigANSKGBUZ46vHKqTV56Vun/dhRIPGR3UY3M853In259F5HLH5AbujSBU39ihCkpAVQ==",
+      "path": "strawberryshake.codegeneration.csharp.analyzers/12.0.1",
+      "hashPath": "strawberryshake.codegeneration.csharp.analyzers.12.0.1.nupkg.sha512"
+    },
+    "StrawberryShake.Core/12.1.0-preview.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uQTj73JQLzOUNhZhi0CWTQufu7FZTSAbdeSIXiN08BC8zchpBjG0uaeeSVI7IW+mpTCJSlbGZpzZNRBc0kCd2A==",
+      "path": "strawberryshake.core/12.1.0-preview.5",
+      "hashPath": "strawberryshake.core.12.1.0-preview.5.nupkg.sha512"
+    },
+    "StrawberryShake.Resources/12.1.0-preview.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GbR0bRSoN0ZXOAB6rmRdIKb3Xm6Cpx6AocZVIFt/b7agw7N/e2oNc+VNkuJZKRlkjL4IlJT3VTg3fHYdokOjNA==",
+      "path": "strawberryshake.resources/12.1.0-preview.5",
+      "hashPath": "strawberryshake.resources.12.1.0-preview.5.nupkg.sha512"
+    },
+    "StrawberryShake.Tools.Configuration/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WdexvJ1kgGmSkQSV74ORJfAX+9ZKwfDh95uPWgKLkh128eKKRONHag4XU93rd0pcyi/eUXaJKFSROO+nQTJ8xw==",
+      "path": "strawberryshake.tools.configuration/12.0.1",
+      "hashPath": "strawberryshake.tools.configuration.12.0.1.nupkg.sha512"
+    },
+    "StrawberryShake.Transport.Http/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TxzIUAnPt/lHM1MK1pKUSEH/JhsWaptJgLX2XaHjNS6FBWtHGkhBwe1W6wRK/A0XzVJxmhcjiGn66UyvGGbY1Q==",
+      "path": "strawberryshake.transport.http/12.0.1",
+      "hashPath": "strawberryshake.transport.http.12.0.1.nupkg.sha512"
+    },
+    "System.Collections.Immutable/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FXkLXiK0sVVewcso0imKQoOxjoPAj42R8HtjjbSjVPAzwDfzoyoznWxgA3c38LDbN9SJux1xXoXYAhz98j7r2g==",
+      "path": "system.collections.immutable/5.0.0",
+      "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    },
+    "System.Reactive/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WhGkScPWxw2pp7UwRW8M1OvYZ3WUDPC2wJ0aiuaB4KRD3bt4wLkgHgYnOUu87WRhsurvv5LN0E63iWOEza2o8g==",
+      "path": "system.reactive/4.3.2",
+      "hashPath": "system.reactive.4.3.2.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zOHkQmzPCn5zm/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.7.1",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+    },
+    "System.Reactive.Reference/4.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

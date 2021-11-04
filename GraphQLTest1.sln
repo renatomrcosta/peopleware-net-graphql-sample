@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLTest1", "GraphQLTest1\GraphQLTest1.csproj", "{CA875B6C-C45A-46D5-B37D-E269428382F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA875B6C-C45A-46D5-B37D-E269428382F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA875B6C-C45A-46D5-B37D-E269428382F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA875B6C-C45A-46D5-B37D-E269428382F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA875B6C-C45A-46D5-B37D-E269428382F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

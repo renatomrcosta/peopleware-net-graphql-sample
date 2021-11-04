@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rcosta/repos/cs/graphql_test1/GraphQLTest1/GraphQLTest1/GraphQLTest1.csproj": {}
+  },
+  "projects": {
+    "/Users/rcosta/repos/cs/graphql_test1/GraphQLTest1/GraphQLTest1/GraphQLTest1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rcosta/repos/cs/graphql_test1/GraphQLTest1/GraphQLTest1/GraphQLTest1.csproj",
+        "projectName": "GraphQLTest1",
+        "projectPath": "/Users/rcosta/repos/cs/graphql_test1/GraphQLTest1/GraphQLTest1/GraphQLTest1.csproj",
+        "packagesPath": "/Users/rcosta/.nuget/packages/",
+        "outputPath": "/Users/rcosta/repos/cs/graphql_test1/GraphQLTest1/GraphQLTest1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rcosta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "GraphQL.Client": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "GraphQL.Client.Serializer.Newtonsoft": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "GraphQL.Net": {
+              "target": "Package",
+              "version": "[0.3.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "StrawberryShake.CodeGeneration.CSharp.Analyzers": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "StrawberryShake.Core": {
+              "target": "Package",
+              "version": "[12.1.0-preview.5, )"
+            },
+            "StrawberryShake.Transport.Http": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
